@@ -1,0 +1,7 @@
+# Core dependencies
+botorch==0.10.0 # Required for Bayesian optimization
+cmaes==0.11.1   # Required for CMA-ES optimization
+
+# For plotting and notebooks
+jupyter==1.0.0
+seaborn==0.13.2
