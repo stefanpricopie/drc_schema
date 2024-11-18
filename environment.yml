@@ -1,0 +1,9 @@
+name: drcbo_env
+channels:
+  - conda-forge
+dependencies:
+  - python==3.10.14
+  - pip
+  - pip:
+      - -e .  # This tells pip to install the package in editable mode
+      - -r requirements.txt  # You can also include dependencies from a requirements file
