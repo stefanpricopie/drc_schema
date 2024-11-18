@@ -1,0 +1,7 @@
+{
+  "function_name": "ackley",
+  "batch_size": 1,
+  "problem_kwargs": {
+    "bounds": [-8.192, 16.384]
+  }
+}
